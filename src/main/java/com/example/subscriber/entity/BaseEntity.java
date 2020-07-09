@@ -4,7 +4,7 @@ import org.hibernate.annotations.CreationTimestamp;
 import org.springframework.data.annotation.LastModifiedDate;
 
 import javax.persistence.*;
-import java.util.Date;
+import java.time.LocalDateTime;
 
 @MappedSuperclass
 public class BaseEntity {
@@ -16,11 +16,11 @@ public class BaseEntity {
 
     @Column(name = "created_at")
     @CreationTimestamp
-    private Date created;
+    private LocalDateTime created;
 
     @Column(name = "updated_at")
     @LastModifiedDate
-    private Date updated;
+    private LocalDateTime updated;
 
     public Long getId() {
         return id;
@@ -30,19 +30,19 @@ public class BaseEntity {
         this.id = id;
     }
 
-    public Date getCreated() {
+    public LocalDateTime getCreated() {
         return created;
     }
 
-    public void setCreated(Date created) {
+    public void setCreated(LocalDateTime created) {
         this.created = created;
     }
 
-    public Date getUpdated() {
+    public LocalDateTime getUpdated() {
         return updated;
     }
 
-    public void setUpdated(Date updated) {
+    public void setUpdated(LocalDateTime updated) {
         this.updated = updated;
     }
 }

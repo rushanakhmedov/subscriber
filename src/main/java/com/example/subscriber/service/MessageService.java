@@ -10,6 +10,7 @@ import com.example.subscriber.repository.SubscriptionRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -17,44 +18,25 @@ public class MessageService {
 
     Logger logger = LoggerFactory.getLogger(MessageService.class);
 
+    private ApplicationContext context;
+
     private SubscriberService subscriberService;
 
     private SubscriptionRepository subscriptionRepository;
     private PurchaseRepository purchaseRepository;
 
     @Autowired
-    public MessageService(SubscriberService subscriberService, SubscriptionRepository subscriptionRepository, PurchaseRepository purchaseRepository) {
+    public MessageService(ApplicationContext context, SubscriberService subscriberService, SubscriptionRepository subscriptionRepository, PurchaseRepository purchaseRepository) {
+        this.context = context;
         this.subscriberService = subscriberService;
         this.subscriptionRepository = subscriptionRepository;
         this.purchaseRepository = purchaseRepository;
     }
 
     public void saveMessage(MessageDTO message) {
-        logger.info("saveMessage");
         Subscriber subscriber = subscriberService.getSubscriberOrSaveAndGet(message.getMsisdn());
-        switch (message.getAction()) {
-            case ActionType.purchase:
-                logger.info("ActionType {}", ActionType.purchase);
-                savePurchase(message.getTimestamp(), subscriber);
-            case ActionType.subscription:
-                logger.info("ActionType {}", ActionType.subscription);
-                saveSubscription(message.getTimestamp(), subscriber);
-        }
-    }
 
-    private void savePurchase(long timestamp, Subscriber subscriber) {
-        logger.info("savePurchase");
-        Purchase purchase = new Purchase();
-        purchase.setSubscriber(subscriber);
-        purchase.setTimestamp(timestamp);
-        purchaseRepository.save(purchase);
-    }
-
-    private void saveSubscription(long timestamp, Subscriber subscriber) {
-        logger.info("saveSubscription");
-        Subscription subscription = new Subscription();
-        subscription.setSubscriber(subscriber);
-        subscription.setTimestamp(timestamp);
-        subscriptionRepository.save(subscription);
+        MessageSaver messageSaverService = context.getBean(ActionType.purchase.toLowerCase() + "Service", MessageSaver.class);
+        messageSaverService.saveMessage(message.getTimestamp(), subscriber);
     }
 }

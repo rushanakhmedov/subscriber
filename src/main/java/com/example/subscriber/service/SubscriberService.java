@@ -5,6 +5,8 @@ import com.example.subscriber.repository.SubscriberRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Optional;
+
 @Service
 public class SubscriberService {
 
@@ -16,13 +18,20 @@ public class SubscriberService {
     }
 
     public Subscriber getSubscriberOrSaveAndGet(long id) {
-        Subscriber subscriber = subscriberRepository.findByMsisdn(id);
+        /*Subscriber subscriber = subscriberRepository.findByMsisdn(id);
         if (subscriber == null) {
             Subscriber newSubscriber = new Subscriber();
             newSubscriber.setMsisdn(id);
             subscriberRepository.save(newSubscriber);
             return newSubscriber;
+        }*/
+        Optional<Subscriber> subscriberOptional = subscriberRepository.findByMsisdn(id);
+        if (subscriberOptional.isEmpty()) {
+            Subscriber newSubscriber = new Subscriber();
+            newSubscriber.setMsisdn(id);
+            subscriberRepository.save(newSubscriber);
+            return newSubscriber;
         }
-        return subscriber;
+        return subscriberOptional.get();
     }
 }
