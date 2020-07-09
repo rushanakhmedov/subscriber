@@ -1,0 +1,1086 @@
+2020-07-09 10:52:54.643  INFO 23535 --- [main] c.e.subscriber.SubscriberApplication     : Starting SubscriberApplication on rushan-desktop with PID 23535 (/home/rushan/work/java/subscriber/target/classes started by rushan in /home/rushan/work/java/subscriber)
+2020-07-09 10:52:54.645  INFO 23535 --- [main] c.e.subscriber.SubscriberApplication     : No active profile set, falling back to default profiles: default
+2020-07-09 10:52:55.234  INFO 23535 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-07-09 10:52:55.269  INFO 23535 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31ms. Found 3 JPA repository interfaces.
+2020-07-09 10:52:55.545  INFO 23535 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-07-09 10:52:55.550  INFO 23535 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-09 10:52:55.550  INFO 23535 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-09 10:52:55.594  INFO 23535 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-09 10:52:55.594  INFO 23535 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 919 ms
+2020-07-09 10:52:55.661  INFO 23535 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-09 10:52:55.679  INFO 23535 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-09 10:52:55.698  INFO 23535 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-07-09 10:52:55.703  WARN 23535 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-09 10:52:55.749  INFO 23535 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-09 10:52:55.793  INFO 23535 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-09 10:52:55.927  INFO 23535 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-09 10:52:55.929  INFO 23535 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-07-09 10:52:56.044  INFO 23535 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-09 10:52:56.053  INFO 23535 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-07-09 10:52:56.412  INFO 23535 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-09 10:52:56.415  INFO 23535 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-09 10:52:56.560  INFO 23535 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-07-09 10:52:56.566  INFO 23535 --- [main] c.e.subscriber.SubscriberApplication     : Started SubscriberApplication in 2.205 seconds (JVM running for 2.646)
+2020-07-09 10:53:02.229  INFO 23535 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-09 10:53:02.229  INFO 23535 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-09 10:53:02.232  INFO 23535 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2020-07-09 10:53:44.948  INFO 23535 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-09 10:53:44.949  INFO 23535 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-09 10:53:44.949  INFO 23535 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-07-09 10:53:44.955  INFO 23535 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-07-09 10:53:47.798  INFO 24193 --- [main] c.e.subscriber.SubscriberApplication     : Starting SubscriberApplication on rushan-desktop with PID 24193 (/home/rushan/work/java/subscriber/target/classes started by rushan in /home/rushan/work/java/subscriber)
+2020-07-09 10:53:47.800  INFO 24193 --- [main] c.e.subscriber.SubscriberApplication     : No active profile set, falling back to default profiles: default
+2020-07-09 10:53:48.332  INFO 24193 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-07-09 10:53:48.365  INFO 24193 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29ms. Found 3 JPA repository interfaces.
+2020-07-09 10:53:48.622  INFO 24193 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-07-09 10:53:48.637  INFO 24193 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-09 10:53:48.638  INFO 24193 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-09 10:53:48.705  INFO 24193 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-09 10:53:48.705  INFO 24193 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 877 ms
+2020-07-09 10:53:48.773  INFO 24193 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-09 10:53:48.790  INFO 24193 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-09 10:53:48.811  INFO 24193 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-07-09 10:53:48.816  WARN 24193 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-09 10:53:48.862  INFO 24193 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-09 10:53:48.906  INFO 24193 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-09 10:53:49.014  INFO 24193 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-09 10:53:49.015  INFO 24193 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-07-09 10:53:49.124  INFO 24193 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-09 10:53:49.133  INFO 24193 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-07-09 10:53:49.499  INFO 24193 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-09 10:53:49.533  INFO 24193 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-09 10:53:49.676  INFO 24193 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-07-09 10:53:49.681  INFO 24193 --- [main] c.e.subscriber.SubscriberApplication     : Started SubscriberApplication in 2.177 seconds (JVM running for 2.614)
+2020-07-09 10:53:52.640  INFO 24193 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-09 10:53:52.640  INFO 24193 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-09 10:53:52.644  INFO 24193 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2020-07-09 10:54:04.496  INFO 24193 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-09 10:54:04.497  INFO 24193 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-09 10:54:04.497  INFO 24193 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-07-09 10:54:04.502  INFO 24193 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-07-09 10:54:07.414  INFO 24492 --- [main] c.e.subscriber.SubscriberApplication     : Starting SubscriberApplication on rushan-desktop with PID 24492 (/home/rushan/work/java/subscriber/target/classes started by rushan in /home/rushan/work/java/subscriber)
+2020-07-09 10:54:07.419  INFO 24492 --- [main] c.e.subscriber.SubscriberApplication     : No active profile set, falling back to default profiles: default
+2020-07-09 10:54:08.123  INFO 24492 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-07-09 10:54:08.160  INFO 24492 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32ms. Found 3 JPA repository interfaces.
+2020-07-09 10:54:08.448  INFO 24492 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-07-09 10:54:08.453  INFO 24492 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-09 10:54:08.454  INFO 24492 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-09 10:54:08.511  INFO 24492 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-09 10:54:08.511  INFO 24492 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1048 ms
+2020-07-09 10:54:08.578  INFO 24492 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-09 10:54:08.594  INFO 24492 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-09 10:54:08.614  INFO 24492 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-07-09 10:54:08.619  WARN 24492 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-09 10:54:08.662  INFO 24492 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-09 10:54:08.704  INFO 24492 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-09 10:54:08.851  INFO 24492 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-09 10:54:08.853  INFO 24492 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-07-09 10:54:08.954  INFO 24492 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-09 10:54:08.962  INFO 24492 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-07-09 10:54:09.304  INFO 24492 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-09 10:54:09.307  INFO 24492 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-09 10:54:09.447  INFO 24492 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-07-09 10:54:09.453  INFO 24492 --- [main] c.e.subscriber.SubscriberApplication     : Started SubscriberApplication in 2.379 seconds (JVM running for 2.833)
+2020-07-09 10:54:12.443  INFO 24492 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-09 10:54:12.444  INFO 24492 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-09 10:54:12.447  INFO 24492 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2020-07-09 10:54:12.534  INFO 24492 --- [http-nio-8081-exec-2] c.e.s.controller.MessageController       : A TRACE Message
+2020-07-09 10:55:30.589  INFO 24492 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-09 10:55:30.590  INFO 24492 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-09 10:55:30.590  INFO 24492 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-07-09 10:55:30.595  INFO 24492 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-07-09 10:55:33.741  INFO 25534 --- [main] c.e.subscriber.SubscriberApplication     : Starting SubscriberApplication on rushan-desktop with PID 25534 (/home/rushan/work/java/subscriber/target/classes started by rushan in /home/rushan/work/java/subscriber)
+2020-07-09 10:55:33.743  INFO 25534 --- [main] c.e.subscriber.SubscriberApplication     : No active profile set, falling back to default profiles: default
+2020-07-09 10:55:34.349  INFO 25534 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-07-09 10:55:34.385  INFO 25534 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31ms. Found 3 JPA repository interfaces.
+2020-07-09 10:55:34.658  INFO 25534 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-07-09 10:55:34.664  INFO 25534 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-09 10:55:34.664  INFO 25534 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-09 10:55:34.719  INFO 25534 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-09 10:55:34.719  INFO 25534 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 936 ms
+2020-07-09 10:55:34.721 TRACE 25534 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Added existing Servlet initializer bean 'dispatcherServletRegistration'; order=2147483647, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration.class]
+2020-07-09 10:55:34.727 TRACE 25534 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Created Filter initializer for bean 'characterEncodingFilter'; order=-2147483648, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/HttpEncodingAutoConfiguration.class]
+2020-07-09 10:55:34.727 TRACE 25534 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Created Filter initializer for bean 'formContentFilter'; order=-9900, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.class]
+2020-07-09 10:55:34.727 TRACE 25534 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Created Filter initializer for bean 'requestContextFilter'; order=-105, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]
+2020-07-09 10:55:34.730 DEBUG 25534 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2020-07-09 10:55:34.730 DEBUG 25534 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2020-07-09 10:55:34.790  INFO 25534 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-09 10:55:34.808  INFO 25534 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-09 10:55:34.830  INFO 25534 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-07-09 10:55:34.834  WARN 25534 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-09 10:55:34.883  INFO 25534 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-09 10:55:34.939 DEBUG 25534 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-09 10:55:34.962  INFO 25534 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-09 10:55:34.962 TRACE 25534 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.e.s.c.MessageController:
+	{POST /api/message}: message(MessageDTO,BindingResult)
+2020-07-09 10:55:34.965 TRACE 25534 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ /error, produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+	{ /error}: error(HttpServletRequest)
+2020-07-09 10:55:34.966 DEBUG 25534 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2020-07-09 10:55:34.973 DEBUG 25534 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Detected 0 mappings in 'beanNameHandlerMapping'
+2020-07-09 10:55:34.981 TRACE 25534 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/webjars/**] onto ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2020-07-09 10:55:34.981 TRACE 25534 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/**] onto ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2020-07-09 10:55:34.981 DEBUG 25534 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-07-09 10:55:34.987 DEBUG 25534 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-07-09 10:55:35.083  INFO 25534 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-09 10:55:35.085  INFO 25534 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-07-09 10:55:35.198  INFO 25534 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-09 10:55:35.206  INFO 25534 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-07-09 10:55:35.561  INFO 25534 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-09 10:55:35.564  INFO 25534 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-09 10:55:35.710  INFO 25534 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-07-09 10:55:35.716  INFO 25534 --- [main] c.e.subscriber.SubscriberApplication     : Started SubscriberApplication in 2.314 seconds (JVM running for 2.751)
+2020-07-09 10:55:37.838  INFO 25534 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-09 10:55:37.838  INFO 25534 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-09 10:55:37.838 TRACE 25534 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.multipart.support.StandardServletMultipartResolver@14422d9d
+2020-07-09 10:55:37.839 TRACE 25534 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : No LocaleResolver 'localeResolver': using default [AcceptHeaderLocaleResolver]
+2020-07-09 10:55:37.840 TRACE 25534 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : No ThemeResolver 'themeResolver': using default [FixedThemeResolver]
+2020-07-09 10:55:37.841 TRACE 25534 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : No RequestToViewNameTranslator 'viewNameTranslator': using default [DefaultRequestToViewNameTranslator]
+2020-07-09 10:55:37.842 TRACE 25534 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : No FlashMapManager 'flashMapManager': using default [SessionFlashMapManager]
+2020-07-09 10:55:37.842 DEBUG 25534 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-07-09 10:55:37.842  INFO 25534 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2020-07-09 10:55:37.846 TRACE 25534 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/api/message", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-07-09 10:55:37.848 TRACE 25534 --- [http-nio-8081-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.subscriber.controller.MessageController#message(MessageDTO, BindingResult)
+2020-07-09 10:55:37.888 TRACE 25534 --- [http-nio-8081-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.example.subscriber.dto.MessageDTO@4237a317]
+2020-07-09 10:55:37.923 TRACE 25534 --- [http-nio-8081-exec-2] .w.s.m.m.a.ServletInvocableHandlerMethod : Arguments: [com.example.subscriber.dto.MessageDTO@4237a317, org.springframework.validation.BeanPropertyBindingResult: 1 errors
+Field error in object 'messageDTO' on field 'action': rejected value [PURCHAS1E]; codes [Pattern.messageDTO.action,Pattern.action,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [messageDTO.action,action]; arguments []; default message [action],[Ljavax.validation.constraints.Pattern$Flag;@77dc0c60,PURCHASE|SUBSCRIPTION]; default message [должно соответствовать "PURCHASE|SUBSCRIPTION"]]
+2020-07-09 10:55:37.929 DEBUG 25534 --- [http-nio-8081-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-09 10:55:37.930 TRACE 25534 --- [http-nio-8081-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{action=должно соответствовать "PURCHASE|SUBSCRIPTION"}]
+2020-07-09 10:55:37.937 TRACE 25534 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-07-09 10:55:37.938 DEBUG 25534 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 409 CONFLICT, headers={masked}
+2020-07-09 12:08:11.610  INFO 25534 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-09 12:08:11.612  INFO 25534 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-09 12:08:11.612  INFO 25534 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-07-09 12:08:11.615  INFO 25534 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-07-09 12:08:15.381  INFO 24519 --- [main] c.e.subscriber.SubscriberApplication     : Starting SubscriberApplication on rushan-desktop with PID 24519 (/home/rushan/work/java/subscriber/target/classes started by rushan in /home/rushan/work/java/subscriber)
+2020-07-09 12:08:15.384  INFO 24519 --- [main] c.e.subscriber.SubscriberApplication     : No active profile set, falling back to default profiles: default
+2020-07-09 12:08:15.862  INFO 24519 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-07-09 12:08:15.896  INFO 24519 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30ms. Found 3 JPA repository interfaces.
+2020-07-09 12:08:16.156  INFO 24519 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-07-09 12:08:16.161  INFO 24519 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-09 12:08:16.162  INFO 24519 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-09 12:08:16.211  INFO 24519 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-09 12:08:16.212  INFO 24519 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 803 ms
+2020-07-09 12:08:16.213 TRACE 24519 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Added existing Servlet initializer bean 'dispatcherServletRegistration'; order=2147483647, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration.class]
+2020-07-09 12:08:16.218 TRACE 24519 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Created Filter initializer for bean 'characterEncodingFilter'; order=-2147483648, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/HttpEncodingAutoConfiguration.class]
+2020-07-09 12:08:16.219 TRACE 24519 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Created Filter initializer for bean 'formContentFilter'; order=-9900, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.class]
+2020-07-09 12:08:16.219 TRACE 24519 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Created Filter initializer for bean 'requestContextFilter'; order=-105, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]
+2020-07-09 12:08:16.222 DEBUG 24519 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2020-07-09 12:08:16.222 DEBUG 24519 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2020-07-09 12:08:16.277  INFO 24519 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-09 12:08:16.293  INFO 24519 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-09 12:08:16.313  INFO 24519 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-07-09 12:08:16.317  WARN 24519 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-09 12:08:16.359  INFO 24519 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-09 12:08:16.385 DEBUG 24519 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-09 12:08:16.402  INFO 24519 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-09 12:08:16.410 TRACE 24519 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.e.s.c.MessageController:
+	{POST /api/message}: message(MessageDTO,BindingResult)
+2020-07-09 12:08:16.413 TRACE 24519 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ /error, produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+	{ /error}: error(HttpServletRequest)
+2020-07-09 12:08:16.414 DEBUG 24519 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2020-07-09 12:08:16.422 DEBUG 24519 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Detected 0 mappings in 'beanNameHandlerMapping'
+2020-07-09 12:08:16.431 TRACE 24519 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/webjars/**] onto ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2020-07-09 12:08:16.431 TRACE 24519 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/**] onto ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2020-07-09 12:08:16.432 DEBUG 24519 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-07-09 12:08:16.437 DEBUG 24519 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-07-09 12:08:16.525  INFO 24519 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-09 12:08:16.526  INFO 24519 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-07-09 12:08:16.639  INFO 24519 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-09 12:08:16.648  INFO 24519 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-07-09 12:08:17.000  INFO 24519 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-09 12:08:17.003  INFO 24519 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-09 12:08:17.141  INFO 24519 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-07-09 12:08:17.147  INFO 24519 --- [main] c.e.subscriber.SubscriberApplication     : Started SubscriberApplication in 2.07 seconds (JVM running for 2.489)
+2020-07-09 12:27:15.941  INFO 24519 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-09 12:27:15.941  INFO 24519 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-09 12:27:15.942 TRACE 24519 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.multipart.support.StandardServletMultipartResolver@43ac0a68
+2020-07-09 12:27:15.943 TRACE 24519 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : No LocaleResolver 'localeResolver': using default [AcceptHeaderLocaleResolver]
+2020-07-09 12:27:15.943 TRACE 24519 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : No ThemeResolver 'themeResolver': using default [FixedThemeResolver]
+2020-07-09 12:27:15.944 TRACE 24519 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : No RequestToViewNameTranslator 'viewNameTranslator': using default [DefaultRequestToViewNameTranslator]
+2020-07-09 12:27:15.945 TRACE 24519 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : No FlashMapManager 'flashMapManager': using default [SessionFlashMapManager]
+2020-07-09 12:27:15.946 DEBUG 24519 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-07-09 12:27:15.946  INFO 24519 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2020-07-09 12:27:15.950 TRACE 24519 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/api/message", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-07-09 12:27:15.952 TRACE 24519 --- [http-nio-8081-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.subscriber.controller.MessageController#message(MessageDTO, BindingResult)
+2020-07-09 12:27:15.989 TRACE 24519 --- [http-nio-8081-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.example.subscriber.dto.MessageDTO@7ea142ec]
+2020-07-09 12:27:16.022 TRACE 24519 --- [http-nio-8081-exec-2] .w.s.m.m.a.ServletInvocableHandlerMethod : Arguments: [com.example.subscriber.dto.MessageDTO@7ea142ec, org.springframework.validation.BeanPropertyBindingResult: 1 errors
+Field error in object 'messageDTO' on field 'action': rejected value [PURCHAS1E]; codes [Pattern.messageDTO.action,Pattern.action,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [messageDTO.action,action]; arguments []; default message [action],[Ljavax.validation.constraints.Pattern$Flag;@788ad4b3,PURCHASE|SUBSCRIPTION]; default message [должно соответствовать "PURCHASE|SUBSCRIPTION"]]
+2020-07-09 12:27:16.022  INFO 24519 --- [http-nio-8081-exec-2] c.e.s.controller.MessageController       : message method
+2020-07-09 12:27:16.022  INFO 24519 --- [http-nio-8081-exec-2] c.e.s.controller.MessageController       : validation error
+2020-07-09 12:27:16.028 DEBUG 24519 --- [http-nio-8081-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-09 12:27:16.028 TRACE 24519 --- [http-nio-8081-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{action=должно соответствовать "PURCHASE|SUBSCRIPTION"}]
+2020-07-09 12:27:16.040 TRACE 24519 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-07-09 12:27:16.041 DEBUG 24519 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 409 CONFLICT, headers={masked}
+2020-07-09 12:43:20.727  INFO 24519 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-09 12:43:20.732  INFO 24519 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-09 12:43:20.733  INFO 24519 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-07-09 12:43:20.760  INFO 24519 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-07-09 12:46:38.868  INFO 12162 --- [main] c.e.subscriber.SubscriberApplication     : Starting SubscriberApplication on rushan-desktop with PID 12162 (/home/rushan/work/java/subscriber/target/classes started by rushan in /home/rushan/work/java/subscriber)
+2020-07-09 12:46:38.870  INFO 12162 --- [main] c.e.subscriber.SubscriberApplication     : No active profile set, falling back to default profiles: default
+2020-07-09 12:46:39.599  INFO 12162 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-07-09 12:46:39.636  INFO 12162 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32ms. Found 3 JPA repository interfaces.
+2020-07-09 12:46:39.901  INFO 12162 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-07-09 12:46:39.906  INFO 12162 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-09 12:46:39.906  INFO 12162 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-09 12:46:39.958  INFO 12162 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-09 12:46:39.958  INFO 12162 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1055 ms
+2020-07-09 12:46:39.960 TRACE 12162 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Added existing Servlet initializer bean 'dispatcherServletRegistration'; order=2147483647, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration.class]
+2020-07-09 12:46:39.971 TRACE 12162 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Created Filter initializer for bean 'characterEncodingFilter'; order=-2147483648, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/HttpEncodingAutoConfiguration.class]
+2020-07-09 12:46:39.971 TRACE 12162 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Created Filter initializer for bean 'formContentFilter'; order=-9900, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.class]
+2020-07-09 12:46:39.971 TRACE 12162 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Created Filter initializer for bean 'requestContextFilter'; order=-105, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]
+2020-07-09 12:46:39.974 DEBUG 12162 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2020-07-09 12:46:39.974 DEBUG 12162 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2020-07-09 12:46:40.028  INFO 12162 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-09 12:46:40.047  INFO 12162 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-09 12:46:40.066  INFO 12162 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-07-09 12:46:40.070  WARN 12162 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-09 12:46:40.113  INFO 12162 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-09 12:46:40.141 DEBUG 12162 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-09 12:46:40.157  INFO 12162 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-09 12:46:40.165 TRACE 12162 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.e.s.c.MessageController:
+	{POST /api/message}: message(MessageDTO,BindingResult)
+2020-07-09 12:46:40.167 TRACE 12162 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ /error, produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+	{ /error}: error(HttpServletRequest)
+2020-07-09 12:46:40.169 DEBUG 12162 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2020-07-09 12:46:40.176 DEBUG 12162 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Detected 0 mappings in 'beanNameHandlerMapping'
+2020-07-09 12:46:40.184 TRACE 12162 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/webjars/**] onto ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2020-07-09 12:46:40.184 TRACE 12162 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/**] onto ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2020-07-09 12:46:40.184 DEBUG 12162 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-07-09 12:46:40.191 DEBUG 12162 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-07-09 12:46:40.274  INFO 12162 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-09 12:46:40.275  INFO 12162 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-07-09 12:46:40.378  INFO 12162 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-09 12:46:40.387  INFO 12162 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-07-09 12:46:40.724  INFO 12162 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-09 12:46:40.728  INFO 12162 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-09 12:46:40.855  INFO 12162 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-07-09 12:46:40.861  INFO 12162 --- [main] c.e.subscriber.SubscriberApplication     : Started SubscriberApplication in 2.452 seconds (JVM running for 2.984)
+2020-07-09 12:47:08.718  INFO 12162 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-09 12:47:08.718  INFO 12162 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-09 12:47:08.718 TRACE 12162 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.multipart.support.StandardServletMultipartResolver@144ab983
+2020-07-09 12:47:08.719 TRACE 12162 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : No LocaleResolver 'localeResolver': using default [AcceptHeaderLocaleResolver]
+2020-07-09 12:47:08.720 TRACE 12162 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : No ThemeResolver 'themeResolver': using default [FixedThemeResolver]
+2020-07-09 12:47:08.721 TRACE 12162 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : No RequestToViewNameTranslator 'viewNameTranslator': using default [DefaultRequestToViewNameTranslator]
+2020-07-09 12:47:08.722 TRACE 12162 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : No FlashMapManager 'flashMapManager': using default [SessionFlashMapManager]
+2020-07-09 12:47:08.722 DEBUG 12162 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-07-09 12:47:08.722  INFO 12162 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2020-07-09 12:47:08.726 TRACE 12162 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/api/message", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-07-09 12:47:08.728 TRACE 12162 --- [http-nio-8081-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.subscriber.controller.MessageController#message(MessageDTO, BindingResult)
+2020-07-09 12:47:08.765 TRACE 12162 --- [http-nio-8081-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.example.subscriber.dto.MessageDTO@9ebc10a]
+2020-07-09 12:47:08.798 TRACE 12162 --- [http-nio-8081-exec-2] .w.s.m.m.a.ServletInvocableHandlerMethod : Arguments: [com.example.subscriber.dto.MessageDTO@9ebc10a, org.springframework.validation.BeanPropertyBindingResult: 1 errors
+Field error in object 'messageDTO' on field 'action': rejected value [PURCHAS1E]; codes [Pattern.messageDTO.action,Pattern.action,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [messageDTO.action,action]; arguments []; default message [action],[Ljavax.validation.constraints.Pattern$Flag;@4d576a7d,PURCHASE|SUBSCRIPTION]; default message [должно соответствовать "PURCHASE|SUBSCRIPTION"]]
+2020-07-09 12:47:08.799  INFO 12162 --- [http-nio-8081-exec-2] c.e.s.controller.MessageController       : message method
+2020-07-09 12:47:08.799  INFO 12162 --- [http-nio-8081-exec-2] c.e.s.controller.MessageController       : validation error
+2020-07-09 12:47:08.805 DEBUG 12162 --- [http-nio-8081-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-09 12:47:08.805 TRACE 12162 --- [http-nio-8081-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{action=должно соответствовать "PURCHASE|SUBSCRIPTION"}]
+2020-07-09 12:47:08.812 TRACE 12162 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-07-09 12:47:08.812 DEBUG 12162 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 409 CONFLICT, headers={masked}
+2020-07-09 13:48:37.697  INFO 12162 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-09 13:48:37.701  INFO 12162 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-09 13:48:37.702  INFO 12162 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-07-09 13:48:37.712  INFO 12162 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-07-09 13:48:41.231  INFO 4103 --- [main] c.e.subscriber.SubscriberApplication     : Starting SubscriberApplication on rushan-desktop with PID 4103 (/home/rushan/work/java/subscriber/target/classes started by rushan in /home/rushan/work/java/subscriber)
+2020-07-09 13:48:41.233  INFO 4103 --- [main] c.e.subscriber.SubscriberApplication     : No active profile set, falling back to default profiles: default
+2020-07-09 13:48:41.705  INFO 4103 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-07-09 13:48:41.740  INFO 4103 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30ms. Found 3 JPA repository interfaces.
+2020-07-09 13:48:41.985  INFO 4103 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-07-09 13:48:41.990  INFO 4103 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-09 13:48:41.990  INFO 4103 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-09 13:48:42.030  INFO 4103 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-09 13:48:42.031  INFO 4103 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 774 ms
+2020-07-09 13:48:42.033 TRACE 4103 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Added existing Servlet initializer bean 'dispatcherServletRegistration'; order=2147483647, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration.class]
+2020-07-09 13:48:42.040 TRACE 4103 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Created Filter initializer for bean 'characterEncodingFilter'; order=-2147483648, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/HttpEncodingAutoConfiguration.class]
+2020-07-09 13:48:42.041 TRACE 4103 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Created Filter initializer for bean 'formContentFilter'; order=-9900, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.class]
+2020-07-09 13:48:42.041 TRACE 4103 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Created Filter initializer for bean 'requestContextFilter'; order=-105, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]
+2020-07-09 13:48:42.044 DEBUG 4103 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2020-07-09 13:48:42.044 DEBUG 4103 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2020-07-09 13:48:42.102  INFO 4103 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-09 13:48:42.119  INFO 4103 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-09 13:48:42.139  INFO 4103 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-07-09 13:48:42.150  WARN 4103 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-09 13:48:42.205  INFO 4103 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-09 13:48:42.236 DEBUG 4103 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-09 13:48:42.248  INFO 4103 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-09 13:48:42.262 TRACE 4103 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.e.s.c.MessageController:
+	{POST /api/message}: message(MessageDTO,BindingResult)
+2020-07-09 13:48:42.265 TRACE 4103 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ /error, produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+	{ /error}: error(HttpServletRequest)
+2020-07-09 13:48:42.266 DEBUG 4103 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2020-07-09 13:48:42.273 DEBUG 4103 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Detected 0 mappings in 'beanNameHandlerMapping'
+2020-07-09 13:48:42.280 TRACE 4103 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/webjars/**] onto ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2020-07-09 13:48:42.281 TRACE 4103 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/**] onto ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2020-07-09 13:48:42.281 DEBUG 4103 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-07-09 13:48:42.287 DEBUG 4103 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-07-09 13:48:42.359  INFO 4103 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-09 13:48:42.360  INFO 4103 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-07-09 13:48:42.462  INFO 4103 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-09 13:48:42.471  INFO 4103 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-07-09 13:48:42.805  INFO 4103 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-09 13:48:42.809  INFO 4103 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-09 13:48:42.943  INFO 4103 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-07-09 13:48:42.949  INFO 4103 --- [main] c.e.subscriber.SubscriberApplication     : Started SubscriberApplication in 1.951 seconds (JVM running for 2.388)
+2020-07-09 13:49:28.440  INFO 4103 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-09 13:49:28.441  INFO 4103 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-09 13:49:28.441 TRACE 4103 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.multipart.support.StandardServletMultipartResolver@20c812c8
+2020-07-09 13:49:28.442 TRACE 4103 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : No LocaleResolver 'localeResolver': using default [AcceptHeaderLocaleResolver]
+2020-07-09 13:49:28.442 TRACE 4103 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : No ThemeResolver 'themeResolver': using default [FixedThemeResolver]
+2020-07-09 13:49:28.443 TRACE 4103 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : No RequestToViewNameTranslator 'viewNameTranslator': using default [DefaultRequestToViewNameTranslator]
+2020-07-09 13:49:28.445 TRACE 4103 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : No FlashMapManager 'flashMapManager': using default [SessionFlashMapManager]
+2020-07-09 13:49:28.445 DEBUG 4103 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-07-09 13:49:28.445  INFO 4103 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2020-07-09 13:49:28.449 TRACE 4103 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/api/message", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-07-09 13:49:28.451 TRACE 4103 --- [http-nio-8081-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.subscriber.controller.MessageController#message(MessageDTO, BindingResult)
+2020-07-09 13:49:28.491 TRACE 4103 --- [http-nio-8081-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.example.subscriber.dto.MessageDTO@4d6b8129]
+2020-07-09 13:49:28.515 TRACE 4103 --- [http-nio-8081-exec-1] .w.s.m.m.a.ServletInvocableHandlerMethod : Arguments: [com.example.subscriber.dto.MessageDTO@4d6b8129, org.springframework.validation.BeanPropertyBindingResult: 0 errors]
+2020-07-09 13:49:28.516  INFO 4103 --- [http-nio-8081-exec-1] c.e.s.controller.MessageController       : message method
+2020-07-09 13:49:28.516  INFO 4103 --- [http-nio-8081-exec-1] c.e.s.controller.MessageController       : validation ok
+2020-07-09 13:49:28.648 DEBUG 4103 --- [http-nio-8081-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : No match for [text/plain, application/json, application/*+json, */*], supported: []
+2020-07-09 13:49:28.649 TRACE 4103 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-07-09 13:49:28.650 DEBUG 4103 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-07-09 13:50:24.520 TRACE 4103 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/api/message", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-07-09 13:50:24.520 TRACE 4103 --- [http-nio-8081-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.subscriber.controller.MessageController#message(MessageDTO, BindingResult)
+2020-07-09 13:50:24.521 TRACE 4103 --- [http-nio-8081-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.example.subscriber.dto.MessageDTO@1dd27b7b]
+2020-07-09 13:50:24.521 TRACE 4103 --- [http-nio-8081-exec-3] .w.s.m.m.a.ServletInvocableHandlerMethod : Arguments: [com.example.subscriber.dto.MessageDTO@1dd27b7b, org.springframework.validation.BeanPropertyBindingResult: 0 errors]
+2020-07-09 13:50:24.521  INFO 4103 --- [http-nio-8081-exec-3] c.e.s.controller.MessageController       : message method
+2020-07-09 13:50:24.521  INFO 4103 --- [http-nio-8081-exec-3] c.e.s.controller.MessageController       : validation ok
+2020-07-09 13:50:24.570 DEBUG 4103 --- [http-nio-8081-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : No match for [text/plain, application/json, application/*+json, */*], supported: []
+2020-07-09 13:50:24.571 TRACE 4103 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-07-09 13:50:24.572 DEBUG 4103 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-07-09 14:58:04.182 TRACE 4103 --- [http-nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : POST "/api/message", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-07-09 14:58:04.183 TRACE 4103 --- [http-nio-8081-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.subscriber.controller.MessageController#message(MessageDTO, BindingResult)
+2020-07-09 14:58:04.185 DEBUG 4103 --- [http-nio-8081-exec-5] .w.s.m.m.a.ServletInvocableHandlerMethod : Could not resolve parameter [0] in public org.springframework.http.ResponseEntity com.example.subscriber.controller.MessageController.message(com.example.subscriber.dto.MessageDTO,org.springframework.validation.BindingResult): JSON parse error: Numeric value (1594295884142) out of range of int (-2147483648 - 2147483647); nested exception is com.fasterxml.jackson.databind.JsonMappingException: Numeric value (1594295884142) out of range of int (-2147483648 - 2147483647)
+ at [Source: (PushbackInputStream); line: 1, column: 71] (through reference chain: com.example.subscriber.dto.MessageDTO["timestamp"])
+2020-07-09 14:58:04.189  WARN 4103 --- [http-nio-8081-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Numeric value (1594295884142) out of range of int (-2147483648 - 2147483647); nested exception is com.fasterxml.jackson.databind.JsonMappingException: Numeric value (1594295884142) out of range of int (-2147483648 - 2147483647)
+ at [Source: (PushbackInputStream); line: 1, column: 71] (through reference chain: com.example.subscriber.dto.MessageDTO["timestamp"])]
+2020-07-09 14:58:04.189 TRACE 4103 --- [http-nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-07-09 14:58:04.189 DEBUG 4103 --- [http-nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 400 BAD_REQUEST, headers={masked}
+2020-07-09 14:58:04.192 TRACE 4103 --- [http-nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for POST "/error", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-07-09 14:58:04.193 TRACE 4103 --- [http-nio-8081-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 matching mappings: [{ /error}, { /error, produces [text/html]}]
+2020-07-09 14:58:04.193 TRACE 4103 --- [http-nio-8081-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2020-07-09 14:58:04.194 TRACE 4103 --- [http-nio-8081-exec-5] .w.s.m.m.a.ServletInvocableHandlerMethod : Arguments: [org.apache.catalina.core.ApplicationHttpRequest@5272153f]
+2020-07-09 14:58:04.200 DEBUG 4103 --- [http-nio-8081-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [text/plain, application/json, application/*+json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-09 14:58:04.200 TRACE 4103 --- [http-nio-8081-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Thu Jul 09 14:58:04 MSK 2020, status=400, error=Bad Request, message=, path=/api/message}]
+2020-07-09 14:58:04.208 TRACE 4103 --- [http-nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-07-09 14:58:04.209 DEBUG 4103 --- [http-nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 400, headers={masked}
+2020-07-09 14:59:08.677 TRACE 4103 --- [http-nio-8081-exec-6] o.s.web.servlet.DispatcherServlet        : POST "/api/message", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-07-09 14:59:08.678 TRACE 4103 --- [http-nio-8081-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.subscriber.controller.MessageController#message(MessageDTO, BindingResult)
+2020-07-09 14:59:08.678 DEBUG 4103 --- [http-nio-8081-exec-6] .w.s.m.m.a.ServletInvocableHandlerMethod : Could not resolve parameter [0] in public org.springframework.http.ResponseEntity com.example.subscriber.controller.MessageController.message(com.example.subscriber.dto.MessageDTO,org.springframework.validation.BindingResult): JSON parse error: Numeric value (1594295919355) out of range of int (-2147483648 - 2147483647); nested exception is com.fasterxml.jackson.databind.JsonMappingException: Numeric value (1594295919355) out of range of int (-2147483648 - 2147483647)
+ at [Source: (PushbackInputStream); line: 1, column: 70] (through reference chain: com.example.subscriber.dto.MessageDTO["timestamp"])
+2020-07-09 14:59:08.678  WARN 4103 --- [http-nio-8081-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Numeric value (1594295919355) out of range of int (-2147483648 - 2147483647); nested exception is com.fasterxml.jackson.databind.JsonMappingException: Numeric value (1594295919355) out of range of int (-2147483648 - 2147483647)
+ at [Source: (PushbackInputStream); line: 1, column: 70] (through reference chain: com.example.subscriber.dto.MessageDTO["timestamp"])]
+2020-07-09 14:59:08.678 TRACE 4103 --- [http-nio-8081-exec-6] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-07-09 14:59:08.678 DEBUG 4103 --- [http-nio-8081-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 400 BAD_REQUEST, headers={masked}
+2020-07-09 14:59:08.679 TRACE 4103 --- [http-nio-8081-exec-6] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for POST "/error", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-07-09 14:59:08.679 TRACE 4103 --- [http-nio-8081-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 matching mappings: [{ /error}, { /error, produces [text/html]}]
+2020-07-09 14:59:08.679 TRACE 4103 --- [http-nio-8081-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2020-07-09 14:59:08.679 TRACE 4103 --- [http-nio-8081-exec-6] .w.s.m.m.a.ServletInvocableHandlerMethod : Arguments: [org.apache.catalina.core.ApplicationHttpRequest@5d546134]
+2020-07-09 14:59:08.679 DEBUG 4103 --- [http-nio-8081-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [text/plain, application/json, application/*+json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-09 14:59:08.680 TRACE 4103 --- [http-nio-8081-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Thu Jul 09 14:59:08 MSK 2020, status=400, error=Bad Request, message=, path=/api/message}]
+2020-07-09 14:59:08.680 TRACE 4103 --- [http-nio-8081-exec-6] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-07-09 14:59:08.680 DEBUG 4103 --- [http-nio-8081-exec-6] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 400, headers={masked}
+2020-07-09 15:02:43.360 TRACE 4103 --- [http-nio-8081-exec-7] o.s.web.servlet.DispatcherServlet        : POST "/api/message", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-07-09 15:02:43.360 TRACE 4103 --- [http-nio-8081-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.subscriber.controller.MessageController#message(MessageDTO, BindingResult)
+2020-07-09 15:02:43.361 DEBUG 4103 --- [http-nio-8081-exec-7] .w.s.m.m.a.ServletInvocableHandlerMethod : Could not resolve parameter [0] in public org.springframework.http.ResponseEntity com.example.subscriber.controller.MessageController.message(com.example.subscriber.dto.MessageDTO,org.springframework.validation.BindingResult): JSON parse error: Numeric value (1594296163326) out of range of int (-2147483648 - 2147483647); nested exception is com.fasterxml.jackson.databind.JsonMappingException: Numeric value (1594296163326) out of range of int (-2147483648 - 2147483647)
+ at [Source: (PushbackInputStream); line: 1, column: 67] (through reference chain: com.example.subscriber.dto.MessageDTO["timestamp"])
+2020-07-09 15:02:43.361  WARN 4103 --- [http-nio-8081-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Numeric value (1594296163326) out of range of int (-2147483648 - 2147483647); nested exception is com.fasterxml.jackson.databind.JsonMappingException: Numeric value (1594296163326) out of range of int (-2147483648 - 2147483647)
+ at [Source: (PushbackInputStream); line: 1, column: 67] (through reference chain: com.example.subscriber.dto.MessageDTO["timestamp"])]
+2020-07-09 15:02:43.361 TRACE 4103 --- [http-nio-8081-exec-7] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-07-09 15:02:43.362 DEBUG 4103 --- [http-nio-8081-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 400 BAD_REQUEST, headers={masked}
+2020-07-09 15:02:43.362 TRACE 4103 --- [http-nio-8081-exec-7] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for POST "/error", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-07-09 15:02:43.362 TRACE 4103 --- [http-nio-8081-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 matching mappings: [{ /error}, { /error, produces [text/html]}]
+2020-07-09 15:02:43.362 TRACE 4103 --- [http-nio-8081-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2020-07-09 15:02:43.362 TRACE 4103 --- [http-nio-8081-exec-7] .w.s.m.m.a.ServletInvocableHandlerMethod : Arguments: [org.apache.catalina.core.ApplicationHttpRequest@61774408]
+2020-07-09 15:02:43.363 DEBUG 4103 --- [http-nio-8081-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [text/plain, application/json, application/*+json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-09 15:02:43.363 TRACE 4103 --- [http-nio-8081-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Thu Jul 09 15:02:43 MSK 2020, status=400, error=Bad Request, message=, path=/api/message}]
+2020-07-09 15:02:43.363 TRACE 4103 --- [http-nio-8081-exec-7] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-07-09 15:02:43.363 DEBUG 4103 --- [http-nio-8081-exec-7] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 400, headers={masked}
+2020-07-09 15:02:54.874 TRACE 4103 --- [http-nio-8081-exec-8] o.s.web.servlet.DispatcherServlet        : POST "/api/message", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-07-09 15:02:54.875 TRACE 4103 --- [http-nio-8081-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.subscriber.controller.MessageController#message(MessageDTO, BindingResult)
+2020-07-09 15:02:54.875 TRACE 4103 --- [http-nio-8081-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.example.subscriber.dto.MessageDTO@6e95a211]
+2020-07-09 15:02:54.875 TRACE 4103 --- [http-nio-8081-exec-8] .w.s.m.m.a.ServletInvocableHandlerMethod : Arguments: [com.example.subscriber.dto.MessageDTO@6e95a211, org.springframework.validation.BeanPropertyBindingResult: 0 errors]
+2020-07-09 15:02:54.875  INFO 4103 --- [http-nio-8081-exec-8] c.e.s.controller.MessageController       : message method
+2020-07-09 15:02:54.876  INFO 4103 --- [http-nio-8081-exec-8] c.e.s.controller.MessageController       : validation ok
+2020-07-09 15:02:54.930 DEBUG 4103 --- [http-nio-8081-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : No match for [text/plain, application/json, application/*+json, */*], supported: []
+2020-07-09 15:02:54.931 TRACE 4103 --- [http-nio-8081-exec-8] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-07-09 15:02:54.931 DEBUG 4103 --- [http-nio-8081-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-07-09 15:06:00.402 TRACE 4103 --- [http-nio-8081-exec-10] o.s.web.servlet.DispatcherServlet        : POST "/api/message", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-07-09 15:06:00.403 TRACE 4103 --- [http-nio-8081-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.subscriber.controller.MessageController#message(MessageDTO, BindingResult)
+2020-07-09 15:06:00.403 TRACE 4103 --- [http-nio-8081-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.example.subscriber.dto.MessageDTO@19640a2d]
+2020-07-09 15:06:00.403 TRACE 4103 --- [http-nio-8081-exec-10] .w.s.m.m.a.ServletInvocableHandlerMethod : Arguments: [com.example.subscriber.dto.MessageDTO@19640a2d, org.springframework.validation.BeanPropertyBindingResult: 0 errors]
+2020-07-09 15:06:00.404  INFO 4103 --- [http-nio-8081-exec-10] c.e.s.controller.MessageController       : message method
+2020-07-09 15:06:00.404  INFO 4103 --- [http-nio-8081-exec-10] c.e.s.controller.MessageController       : validation ok
+2020-07-09 15:06:00.421 DEBUG 4103 --- [http-nio-8081-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : No match for [text/plain, application/json, application/*+json, */*], supported: []
+2020-07-09 15:06:00.422 TRACE 4103 --- [http-nio-8081-exec-10] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-07-09 15:06:00.422 DEBUG 4103 --- [http-nio-8081-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-07-09 15:06:13.109 TRACE 4103 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/api/message", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-07-09 15:06:13.109 TRACE 4103 --- [http-nio-8081-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.subscriber.controller.MessageController#message(MessageDTO, BindingResult)
+2020-07-09 15:06:13.109 DEBUG 4103 --- [http-nio-8081-exec-2] .w.s.m.m.a.ServletInvocableHandlerMethod : Could not resolve parameter [0] in public org.springframework.http.ResponseEntity com.example.subscriber.controller.MessageController.message(com.example.subscriber.dto.MessageDTO,org.springframework.validation.BindingResult): JSON parse error: Numeric value (1594296373075) out of range of int (-2147483648 - 2147483647); nested exception is com.fasterxml.jackson.databind.JsonMappingException: Numeric value (1594296373075) out of range of int (-2147483648 - 2147483647)
+ at [Source: (PushbackInputStream); line: 1, column: 66] (through reference chain: com.example.subscriber.dto.MessageDTO["timestamp"])
+2020-07-09 15:06:13.110  WARN 4103 --- [http-nio-8081-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Numeric value (1594296373075) out of range of int (-2147483648 - 2147483647); nested exception is com.fasterxml.jackson.databind.JsonMappingException: Numeric value (1594296373075) out of range of int (-2147483648 - 2147483647)
+ at [Source: (PushbackInputStream); line: 1, column: 66] (through reference chain: com.example.subscriber.dto.MessageDTO["timestamp"])]
+2020-07-09 15:06:13.110 TRACE 4103 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-07-09 15:06:13.110 DEBUG 4103 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 400 BAD_REQUEST, headers={masked}
+2020-07-09 15:06:13.110 TRACE 4103 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for POST "/error", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-07-09 15:06:13.110 TRACE 4103 --- [http-nio-8081-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 matching mappings: [{ /error}, { /error, produces [text/html]}]
+2020-07-09 15:06:13.110 TRACE 4103 --- [http-nio-8081-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2020-07-09 15:06:13.110 TRACE 4103 --- [http-nio-8081-exec-2] .w.s.m.m.a.ServletInvocableHandlerMethod : Arguments: [org.apache.catalina.core.ApplicationHttpRequest@5241c547]
+2020-07-09 15:06:13.111 DEBUG 4103 --- [http-nio-8081-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [text/plain, application/json, application/*+json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-09 15:06:13.111 TRACE 4103 --- [http-nio-8081-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Thu Jul 09 15:06:13 MSK 2020, status=400, error=Bad Request, message=, path=/api/message}]
+2020-07-09 15:06:13.111 TRACE 4103 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-07-09 15:06:13.112 DEBUG 4103 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 400, headers={masked}
+2020-07-09 15:10:36.657 TRACE 4103 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/api/message", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-07-09 15:10:36.657 TRACE 4103 --- [http-nio-8081-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.subscriber.controller.MessageController#message(MessageDTO, BindingResult)
+2020-07-09 15:10:36.658 TRACE 4103 --- [http-nio-8081-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.example.subscriber.dto.MessageDTO@201c1cd]
+2020-07-09 15:10:36.658 TRACE 4103 --- [http-nio-8081-exec-3] .w.s.m.m.a.ServletInvocableHandlerMethod : Arguments: [com.example.subscriber.dto.MessageDTO@201c1cd, org.springframework.validation.BeanPropertyBindingResult: 0 errors]
+2020-07-09 15:10:36.658  INFO 4103 --- [http-nio-8081-exec-3] c.e.s.controller.MessageController       : message method
+2020-07-09 15:10:36.658  INFO 4103 --- [http-nio-8081-exec-3] c.e.s.controller.MessageController       : validation ok
+2020-07-09 15:10:36.672 DEBUG 4103 --- [http-nio-8081-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : No match for [text/plain, application/json, application/*+json, */*], supported: []
+2020-07-09 15:10:36.673 TRACE 4103 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-07-09 15:10:36.673 DEBUG 4103 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-07-09 15:21:25.950 TRACE 4103 --- [http-nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : POST "/api/message", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-07-09 15:21:25.951 TRACE 4103 --- [http-nio-8081-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.subscriber.controller.MessageController#message(MessageDTO, BindingResult)
+2020-07-09 15:21:25.951 TRACE 4103 --- [http-nio-8081-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.example.subscriber.dto.MessageDTO@4c386f5b]
+2020-07-09 15:21:25.951 TRACE 4103 --- [http-nio-8081-exec-5] .w.s.m.m.a.ServletInvocableHandlerMethod : Arguments: [com.example.subscriber.dto.MessageDTO@4c386f5b, org.springframework.validation.BeanPropertyBindingResult: 0 errors]
+2020-07-09 15:21:25.951  INFO 4103 --- [http-nio-8081-exec-5] c.e.s.controller.MessageController       : message method
+2020-07-09 15:21:25.952  INFO 4103 --- [http-nio-8081-exec-5] c.e.s.controller.MessageController       : validation ok
+2020-07-09 15:21:25.972 DEBUG 4103 --- [http-nio-8081-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : No match for [text/plain, application/json, application/*+json, */*], supported: []
+2020-07-09 15:21:25.972 TRACE 4103 --- [http-nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-07-09 15:21:25.972 DEBUG 4103 --- [http-nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-07-09 15:22:11.674 TRACE 4103 --- [http-nio-8081-exec-7] o.s.web.servlet.DispatcherServlet        : POST "/api/message", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-07-09 15:22:11.675 TRACE 4103 --- [http-nio-8081-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.subscriber.controller.MessageController#message(MessageDTO, BindingResult)
+2020-07-09 15:22:11.675 TRACE 4103 --- [http-nio-8081-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.example.subscriber.dto.MessageDTO@62747e3d]
+2020-07-09 15:22:11.675 TRACE 4103 --- [http-nio-8081-exec-7] .w.s.m.m.a.ServletInvocableHandlerMethod : Arguments: [com.example.subscriber.dto.MessageDTO@62747e3d, org.springframework.validation.BeanPropertyBindingResult: 0 errors]
+2020-07-09 15:22:11.675  INFO 4103 --- [http-nio-8081-exec-7] c.e.s.controller.MessageController       : message method
+2020-07-09 15:22:11.675  INFO 4103 --- [http-nio-8081-exec-7] c.e.s.controller.MessageController       : validation ok
+2020-07-09 15:22:11.707 DEBUG 4103 --- [http-nio-8081-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : No match for [text/plain, application/json, application/*+json, */*], supported: []
+2020-07-09 15:22:11.708 TRACE 4103 --- [http-nio-8081-exec-7] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-07-09 15:22:11.708 DEBUG 4103 --- [http-nio-8081-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-07-09 15:24:01.812 TRACE 4103 --- [http-nio-8081-exec-9] o.s.web.servlet.DispatcherServlet        : POST "/api/message", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-07-09 15:24:01.812 TRACE 4103 --- [http-nio-8081-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.subscriber.controller.MessageController#message(MessageDTO, BindingResult)
+2020-07-09 15:24:01.812 TRACE 4103 --- [http-nio-8081-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.example.subscriber.dto.MessageDTO@3f43feaa]
+2020-07-09 15:24:01.813 TRACE 4103 --- [http-nio-8081-exec-9] .w.s.m.m.a.ServletInvocableHandlerMethod : Arguments: [com.example.subscriber.dto.MessageDTO@3f43feaa, org.springframework.validation.BeanPropertyBindingResult: 0 errors]
+2020-07-09 15:24:01.813  INFO 4103 --- [http-nio-8081-exec-9] c.e.s.controller.MessageController       : message method
+2020-07-09 15:24:01.813  INFO 4103 --- [http-nio-8081-exec-9] c.e.s.controller.MessageController       : validation ok
+2020-07-09 15:24:01.829 DEBUG 4103 --- [http-nio-8081-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : No match for [text/plain, application/json, application/*+json, */*], supported: []
+2020-07-09 15:24:01.829 TRACE 4103 --- [http-nio-8081-exec-9] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-07-09 15:24:01.829 DEBUG 4103 --- [http-nio-8081-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-07-09 15:24:14.752 TRACE 4103 --- [http-nio-8081-exec-10] o.s.web.servlet.DispatcherServlet        : POST "/api/message", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-07-09 15:24:14.752 TRACE 4103 --- [http-nio-8081-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.subscriber.controller.MessageController#message(MessageDTO, BindingResult)
+2020-07-09 15:24:14.752 TRACE 4103 --- [http-nio-8081-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.example.subscriber.dto.MessageDTO@6534f87a]
+2020-07-09 15:24:14.753 TRACE 4103 --- [http-nio-8081-exec-10] .w.s.m.m.a.ServletInvocableHandlerMethod : Arguments: [com.example.subscriber.dto.MessageDTO@6534f87a, org.springframework.validation.BeanPropertyBindingResult: 0 errors]
+2020-07-09 15:24:14.753  INFO 4103 --- [http-nio-8081-exec-10] c.e.s.controller.MessageController       : message method
+2020-07-09 15:24:14.753  INFO 4103 --- [http-nio-8081-exec-10] c.e.s.controller.MessageController       : validation ok
+2020-07-09 15:24:14.775 DEBUG 4103 --- [http-nio-8081-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : No match for [text/plain, application/json, application/*+json, */*], supported: []
+2020-07-09 15:24:14.775 TRACE 4103 --- [http-nio-8081-exec-10] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-07-09 15:24:14.775 DEBUG 4103 --- [http-nio-8081-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-07-09 15:24:51.983 TRACE 4103 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/api/message", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-07-09 15:24:51.983 TRACE 4103 --- [http-nio-8081-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.subscriber.controller.MessageController#message(MessageDTO, BindingResult)
+2020-07-09 15:24:51.984 TRACE 4103 --- [http-nio-8081-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.example.subscriber.dto.MessageDTO@567e4bd7]
+2020-07-09 15:24:51.984 TRACE 4103 --- [http-nio-8081-exec-2] .w.s.m.m.a.ServletInvocableHandlerMethod : Arguments: [com.example.subscriber.dto.MessageDTO@567e4bd7, org.springframework.validation.BeanPropertyBindingResult: 0 errors]
+2020-07-09 15:24:51.984  INFO 4103 --- [http-nio-8081-exec-2] c.e.s.controller.MessageController       : message method
+2020-07-09 15:24:51.984  INFO 4103 --- [http-nio-8081-exec-2] c.e.s.controller.MessageController       : validation ok
+2020-07-09 15:24:52.023 DEBUG 4103 --- [http-nio-8081-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : No match for [text/plain, application/json, application/*+json, */*], supported: []
+2020-07-09 15:24:52.024 TRACE 4103 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-07-09 15:24:52.025 DEBUG 4103 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-07-09 15:38:00.431  INFO 4103 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-09 15:38:00.432  INFO 4103 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-09 15:38:00.433  INFO 4103 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-07-09 15:38:00.437  INFO 4103 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-07-09 15:38:05.031  INFO 28616 --- [main] c.e.subscriber.SubscriberApplication     : Starting SubscriberApplication on rushan-desktop with PID 28616 (/home/rushan/work/java/subscriber/target/classes started by rushan in /home/rushan/work/java/subscriber)
+2020-07-09 15:38:05.033  INFO 28616 --- [main] c.e.subscriber.SubscriberApplication     : No active profile set, falling back to default profiles: default
+2020-07-09 15:38:05.469  INFO 28616 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-07-09 15:38:05.507  INFO 28616 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33ms. Found 3 JPA repository interfaces.
+2020-07-09 15:38:05.760  INFO 28616 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-07-09 15:38:05.772  INFO 28616 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-09 15:38:05.772  INFO 28616 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-09 15:38:05.820  INFO 28616 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-09 15:38:05.820  INFO 28616 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 747 ms
+2020-07-09 15:38:05.822 TRACE 28616 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Added existing Servlet initializer bean 'dispatcherServletRegistration'; order=2147483647, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration.class]
+2020-07-09 15:38:05.827 TRACE 28616 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Created Filter initializer for bean 'characterEncodingFilter'; order=-2147483648, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/HttpEncodingAutoConfiguration.class]
+2020-07-09 15:38:05.827 TRACE 28616 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Created Filter initializer for bean 'formContentFilter'; order=-9900, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.class]
+2020-07-09 15:38:05.827 TRACE 28616 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Created Filter initializer for bean 'requestContextFilter'; order=-105, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]
+2020-07-09 15:38:05.830 DEBUG 28616 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2020-07-09 15:38:05.830 DEBUG 28616 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2020-07-09 15:38:05.907  INFO 28616 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-09 15:38:05.928  INFO 28616 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-09 15:38:05.951  INFO 28616 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-07-09 15:38:05.960  WARN 28616 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-09 15:38:06.013  INFO 28616 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-09 15:38:06.036 DEBUG 28616 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-09 15:38:06.067 TRACE 28616 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.e.s.c.MessageController:
+	{POST /api/message}: message(MessageDTO,BindingResult)
+2020-07-09 15:38:06.068  INFO 28616 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-09 15:38:06.070 TRACE 28616 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ /error, produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+	{ /error}: error(HttpServletRequest)
+2020-07-09 15:38:06.071 DEBUG 28616 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2020-07-09 15:38:06.079 DEBUG 28616 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Detected 0 mappings in 'beanNameHandlerMapping'
+2020-07-09 15:38:06.088 TRACE 28616 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/webjars/**] onto ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2020-07-09 15:38:06.088 TRACE 28616 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/**] onto ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2020-07-09 15:38:06.088 DEBUG 28616 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-07-09 15:38:06.094 DEBUG 28616 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-07-09 15:38:06.165  INFO 28616 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-09 15:38:06.166  INFO 28616 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-07-09 15:38:06.319  INFO 28616 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-09 15:38:06.329  INFO 28616 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-07-09 15:38:06.802  INFO 28616 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-09 15:38:06.821  INFO 28616 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-09 15:38:06.979  INFO 28616 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-07-09 15:38:06.985  INFO 28616 --- [main] c.e.subscriber.SubscriberApplication     : Started SubscriberApplication in 2.226 seconds (JVM running for 2.622)
+2020-07-09 15:38:09.450  INFO 28616 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-09 15:38:09.450  INFO 28616 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-09 15:38:09.451 TRACE 28616 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.multipart.support.StandardServletMultipartResolver@19bedeb8
+2020-07-09 15:38:09.452 TRACE 28616 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : No LocaleResolver 'localeResolver': using default [AcceptHeaderLocaleResolver]
+2020-07-09 15:38:09.452 TRACE 28616 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : No ThemeResolver 'themeResolver': using default [FixedThemeResolver]
+2020-07-09 15:38:09.453 TRACE 28616 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : No RequestToViewNameTranslator 'viewNameTranslator': using default [DefaultRequestToViewNameTranslator]
+2020-07-09 15:38:09.454 TRACE 28616 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : No FlashMapManager 'flashMapManager': using default [SessionFlashMapManager]
+2020-07-09 15:38:09.454 DEBUG 28616 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-07-09 15:38:09.454  INFO 28616 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2020-07-09 15:38:09.459 TRACE 28616 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/api/message", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2020-07-09 15:38:09.460 TRACE 28616 --- [http-nio-8081-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.subscriber.controller.MessageController#message(MessageDTO, BindingResult)
+2020-07-09 15:38:09.502 TRACE 28616 --- [http-nio-8081-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.example.subscriber.dto.MessageDTO@45327770]
+2020-07-09 15:38:09.527 TRACE 28616 --- [http-nio-8081-exec-1] .w.s.m.m.a.ServletInvocableHandlerMethod : Arguments: [com.example.subscriber.dto.MessageDTO@45327770, org.springframework.validation.BeanPropertyBindingResult: 0 errors]
+2020-07-09 15:38:09.527  INFO 28616 --- [http-nio-8081-exec-1] c.e.s.controller.MessageController       : message method
+2020-07-09 15:38:09.527  INFO 28616 --- [http-nio-8081-exec-1] c.e.s.controller.MessageController       : validation ok
+2020-07-09 15:38:09.527  INFO 28616 --- [http-nio-8081-exec-1] c.e.subscriber.service.MessageService    : saveMessage
+2020-07-09 15:38:09.631  INFO 28616 --- [http-nio-8081-exec-1] c.e.subscriber.service.MessageService    : ActionType SUBSCRIPTION
+2020-07-09 15:38:09.631  INFO 28616 --- [http-nio-8081-exec-1] c.e.subscriber.service.MessageService    : saveSubscription
+2020-07-09 15:38:09.646 DEBUG 28616 --- [http-nio-8081-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : No match for [text/plain, application/json, application/*+json, */*], supported: []
+2020-07-09 15:38:09.646 TRACE 28616 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2020-07-09 15:38:09.647 DEBUG 28616 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2020-07-09 15:42:09.921  INFO 28616 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-09 15:42:09.922  INFO 28616 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-09 15:42:09.923  INFO 28616 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-07-09 15:42:09.930  INFO 28616 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-07-09 15:42:13.455  INFO 30548 --- [main] c.e.subscriber.SubscriberApplication     : Starting SubscriberApplication on rushan-desktop with PID 30548 (/home/rushan/work/java/subscriber/target/classes started by rushan in /home/rushan/work/java/subscriber)
+2020-07-09 15:42:13.456  INFO 30548 --- [main] c.e.subscriber.SubscriberApplication     : No active profile set, falling back to default profiles: default
+2020-07-09 15:42:13.910  INFO 30548 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-07-09 15:42:13.947  INFO 30548 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33ms. Found 3 JPA repository interfaces.
+2020-07-09 15:42:14.205  INFO 30548 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-07-09 15:42:14.217  INFO 30548 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-09 15:42:14.217  INFO 30548 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-09 15:42:14.263  INFO 30548 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-09 15:42:14.264  INFO 30548 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 781 ms
+2020-07-09 15:42:14.330  INFO 30548 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-09 15:42:14.347  INFO 30548 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-09 15:42:14.367  INFO 30548 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-07-09 15:42:14.376  WARN 30548 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-09 15:42:14.417  INFO 30548 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-09 15:42:14.460  INFO 30548 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-09 15:42:14.553  INFO 30548 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-09 15:42:14.554  INFO 30548 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-07-09 15:42:14.664  INFO 30548 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-09 15:42:14.673  INFO 30548 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-07-09 15:42:15.257  INFO 30548 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-09 15:42:15.261  INFO 30548 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-09 15:42:15.407  INFO 30548 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-07-09 15:42:15.413  INFO 30548 --- [main] c.e.subscriber.SubscriberApplication     : Started SubscriberApplication in 2.202 seconds (JVM running for 2.597)
+2020-07-09 15:53:17.764  INFO 30548 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-09 15:53:17.765  INFO 30548 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-09 15:53:17.766  INFO 30548 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-07-09 15:53:17.771  INFO 30548 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-07-09 15:53:20.766  INFO 2928 --- [main] c.e.subscriber.SubscriberApplication     : Starting SubscriberApplication on rushan-desktop with PID 2928 (/home/rushan/work/java/subscriber/target/classes started by rushan in /home/rushan/work/java/subscriber)
+2020-07-09 15:53:20.771  INFO 2928 --- [main] c.e.subscriber.SubscriberApplication     : No active profile set, falling back to default profiles: default
+2020-07-09 15:53:21.297  INFO 2928 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-07-09 15:53:21.330  INFO 2928 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29ms. Found 3 JPA repository interfaces.
+2020-07-09 15:53:21.591  INFO 2928 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-07-09 15:53:21.596  INFO 2928 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-09 15:53:21.596  INFO 2928 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-09 15:53:21.653  INFO 2928 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-09 15:53:21.653  INFO 2928 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 841 ms
+2020-07-09 15:53:21.718  INFO 2928 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-09 15:53:21.735  INFO 2928 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-09 15:53:21.754  INFO 2928 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-07-09 15:53:21.764  WARN 2928 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-09 15:53:21.804  INFO 2928 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-09 15:53:21.847  INFO 2928 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-09 15:53:21.942  INFO 2928 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-09 15:53:21.943  INFO 2928 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-07-09 15:53:22.055  INFO 2928 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-09 15:53:22.064  INFO 2928 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-07-09 15:53:22.745  INFO 2928 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-09 15:53:22.760  INFO 2928 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-09 15:53:22.924  INFO 2928 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-07-09 15:53:22.930  INFO 2928 --- [main] c.e.subscriber.SubscriberApplication     : Started SubscriberApplication in 2.598 seconds (JVM running for 3.241)
+2020-07-09 15:53:49.428  INFO 2928 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-09 15:53:49.429  INFO 2928 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-09 15:53:49.430  INFO 2928 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-07-09 15:53:49.437  INFO 2928 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-07-09 15:53:53.235  INFO 3521 --- [main] c.e.subscriber.SubscriberApplication     : Starting SubscriberApplication on rushan-desktop with PID 3521 (/home/rushan/work/java/subscriber/target/classes started by rushan in /home/rushan/work/java/subscriber)
+2020-07-09 15:53:53.237  INFO 3521 --- [main] c.e.subscriber.SubscriberApplication     : No active profile set, falling back to default profiles: default
+2020-07-09 15:53:53.699  INFO 3521 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-07-09 15:53:53.740  INFO 3521 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36ms. Found 3 JPA repository interfaces.
+2020-07-09 15:53:54.013  INFO 3521 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-07-09 15:53:54.021  INFO 3521 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-09 15:53:54.021  INFO 3521 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-09 15:53:54.065  INFO 3521 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-09 15:53:54.065  INFO 3521 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 791 ms
+2020-07-09 15:53:54.124  WARN 3521 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Unsatisfied dependency expressed through method 'flywayInitializer' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flyway' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.flywaydb.core.Flyway]: Factory method 'flyway' threw exception; nested exception is org.springframework.boot.autoconfigure.flyway.FlywayMigrationScriptMissingException: Cannot find migration scripts in: [classpath:db/migration] (please add migration scripts or check your Flyway configuration)
+2020-07-09 15:53:54.126  INFO 3521 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-07-09 15:53:54.133  INFO 3521 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-09 15:53:54.142 ERROR 3521 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Flyway failed to initialize: none of the following migration scripts locations could be found:
+
+	- classpath:db/migration
+
+
+Action:
+
+Review the locations above or check your Flyway configuration
+
+2020-07-09 15:55:01.945  INFO 4383 --- [main] c.e.subscriber.SubscriberApplication     : Starting SubscriberApplication on rushan-desktop with PID 4383 (/home/rushan/work/java/subscriber/target/classes started by rushan in /home/rushan/work/java/subscriber)
+2020-07-09 15:55:01.947  INFO 4383 --- [main] c.e.subscriber.SubscriberApplication     : No active profile set, falling back to default profiles: default
+2020-07-09 15:55:02.368  INFO 4383 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-07-09 15:55:02.404  INFO 4383 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31ms. Found 3 JPA repository interfaces.
+2020-07-09 15:55:02.666  INFO 4383 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-07-09 15:55:02.671  INFO 4383 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-09 15:55:02.671  INFO 4383 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-09 15:55:02.730  INFO 4383 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-09 15:55:02.730  INFO 4383 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 752 ms
+2020-07-09 15:55:02.786  WARN 4383 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Unsatisfied dependency expressed through method 'flywayInitializer' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flyway' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.flywaydb.core.Flyway]: Factory method 'flyway' threw exception; nested exception is org.springframework.boot.autoconfigure.flyway.FlywayMigrationScriptMissingException: Cannot find migration scripts in: [classpath:db/migration] (please add migration scripts or check your Flyway configuration)
+2020-07-09 15:55:02.788  INFO 4383 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-07-09 15:55:02.796  INFO 4383 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-09 15:55:02.799 ERROR 4383 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Flyway failed to initialize: none of the following migration scripts locations could be found:
+
+	- classpath:db/migration
+
+
+Action:
+
+Review the locations above or check your Flyway configuration
+
+2020-07-09 15:55:57.133  INFO 4918 --- [main] c.e.subscriber.SubscriberApplication     : Starting SubscriberApplication on rushan-desktop with PID 4918 (/home/rushan/work/java/subscriber/target/classes started by rushan in /home/rushan/work/java/subscriber)
+2020-07-09 15:55:57.135  INFO 4918 --- [main] c.e.subscriber.SubscriberApplication     : No active profile set, falling back to default profiles: default
+2020-07-09 15:55:57.698  INFO 4918 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-07-09 15:55:57.732  INFO 4918 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30ms. Found 3 JPA repository interfaces.
+2020-07-09 15:55:58.023  INFO 4918 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-07-09 15:55:58.028  INFO 4918 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-09 15:55:58.029  INFO 4918 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-09 15:55:58.089  INFO 4918 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-09 15:55:58.090  INFO 4918 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 931 ms
+2020-07-09 15:55:58.160  INFO 4918 --- [main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 6.4.4 by Redgate
+2020-07-09 15:55:58.163  INFO 4918 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-09 15:55:58.371  INFO 4918 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-09 15:55:58.405  INFO 4918 --- [main] o.f.c.internal.database.DatabaseFactory  : Database: jdbc:mysql://localhost:33062/subscriber (MySQL 8.0)
+2020-07-09 15:55:58.538  INFO 4918 --- [main] o.f.core.internal.command.DbValidate     : Successfully validated 1 migration (execution time 00:00.012s)
+2020-07-09 15:55:58.554  INFO 4918 --- [main] o.f.c.i.s.JdbcTableSchemaHistory         : Creating Schema History table `subscriber`.`flyway_schema_history` ...
+2020-07-09 15:55:58.629  INFO 4918 --- [main] o.f.core.internal.command.DbMigrate      : Current version of schema `subscriber`: << Empty Schema >>
+2020-07-09 15:55:58.635  INFO 4918 --- [main] o.f.core.internal.command.DbMigrate      : Migrating schema `subscriber` to version 1 - init
+2020-07-09 15:55:59.114  INFO 4918 --- [main] o.f.core.internal.command.DbMigrate      : Successfully applied 1 migration to schema `subscriber` (execution time 00:00.490s)
+2020-07-09 15:55:59.158  INFO 4918 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-09 15:55:59.176  INFO 4918 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-09 15:55:59.195  INFO 4918 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-07-09 15:55:59.204  WARN 4918 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-09 15:55:59.245  INFO 4918 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-09 15:55:59.292  INFO 4918 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-07-09 15:55:59.377  INFO 4918 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-09 15:55:59.378  INFO 4918 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-07-09 15:55:59.602  INFO 4918 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-09 15:55:59.606  INFO 4918 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-09 15:55:59.749  INFO 4918 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-07-09 15:55:59.755  INFO 4918 --- [main] c.e.subscriber.SubscriberApplication     : Started SubscriberApplication in 2.854 seconds (JVM running for 3.238)
+2020-07-09 16:04:50.350  INFO 4918 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-09 16:04:50.352  INFO 4918 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-09 16:04:50.352  INFO 4918 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-07-09 16:04:50.361  INFO 4918 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-07-09 16:04:54.006  INFO 9334 --- [main] c.e.subscriber.SubscriberApplication     : Starting SubscriberApplication on rushan-desktop with PID 9334 (/home/rushan/work/java/subscriber/target/classes started by rushan in /home/rushan/work/java/subscriber)
+2020-07-09 16:04:54.008  INFO 9334 --- [main] c.e.subscriber.SubscriberApplication     : No active profile set, falling back to default profiles: default
+2020-07-09 16:04:54.450  INFO 9334 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-07-09 16:04:54.483  INFO 9334 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29ms. Found 3 JPA repository interfaces.
+2020-07-09 16:04:54.745  INFO 9334 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-07-09 16:04:54.750  INFO 9334 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-09 16:04:54.750  INFO 9334 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-09 16:04:54.805  INFO 9334 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-09 16:04:54.805  INFO 9334 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 757 ms
+2020-07-09 16:04:54.871  INFO 9334 --- [main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 6.4.4 by Redgate
+2020-07-09 16:04:54.874  INFO 9334 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-09 16:04:54.913  INFO 9334 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-09 16:04:54.924  INFO 9334 --- [main] o.f.c.internal.database.DatabaseFactory  : Database: jdbc:postgresql://localhost:5432/subscriber (PostgreSQL 12.3)
+2020-07-09 16:04:54.945  INFO 9334 --- [main] o.f.core.internal.command.DbValidate     : Successfully validated 1 migration (execution time 00:00.008s)
+2020-07-09 16:04:54.953  INFO 9334 --- [main] o.f.c.i.s.JdbcTableSchemaHistory         : Creating Schema History table "public"."flyway_schema_history" ...
+2020-07-09 16:04:55.008  INFO 9334 --- [main] o.f.core.internal.command.DbMigrate      : Current version of schema "public": << Empty Schema >>
+2020-07-09 16:04:55.028  INFO 9334 --- [main] o.f.core.internal.command.DbMigrate      : Migrating schema "public" to version 1 - init
+2020-07-09 16:04:55.059 ERROR 9334 --- [main] o.f.core.internal.command.DbMigrate      : Migration of schema "public" to version 1 - init failed! Changes successfully rolled back.
+2020-07-09 16:04:55.062  WARN 9334 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Invocation of init method failed; nested exception is org.flywaydb.core.internal.command.DbMigrate$FlywayMigrateException: 
+Migration V1__init.sql failed
+-----------------------------
+SQL State  : 42601
+Error Code : 0
+Message    : ERROR: syntax error at or near "auto_increment"
+  Позиция: 45
+Location   : db/migration/V1__init.sql (/home/rushan/work/java/subscriber/target/classes/db/migration/V1__init.sql)
+Line       : 1
+Statement  : create table purchase (
+	id bigint not null auto_increment,
+	subscriber_id bigint not null,
+	timestamp bigint not null,
+	created_at datetime(6),
+	updated_at datetime(6),
+	primary key (id)
+) engine=InnoDB
+
+2020-07-09 16:04:55.063  INFO 9334 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-07-09 16:04:55.067  INFO 9334 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-07-09 16:04:55.078  INFO 9334 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-07-09 16:04:55.089  INFO 9334 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-09 16:04:55.096 ERROR 9334 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Invocation of init method failed; nested exception is org.flywaydb.core.internal.command.DbMigrate$FlywayMigrateException: 
+Migration V1__init.sql failed
+-----------------------------
+SQL State  : 42601
+Error Code : 0
+Message    : ERROR: syntax error at or near "auto_increment"
+  Позиция: 45
+Location   : db/migration/V1__init.sql (/home/rushan/work/java/subscriber/target/classes/db/migration/V1__init.sql)
+Line       : 1
+Statement  : create table purchase (
+	id bigint not null auto_increment,
+	subscriber_id bigint not null,
+	timestamp bigint not null,
+	created_at datetime(6),
+	updated_at datetime(6),
+	primary key (id)
+) engine=InnoDB
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1109) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) ~[spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750) ~[spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) ~[spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) ~[spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) ~[spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at com.example.subscriber.SubscriberApplication.main(SubscriberApplication.java:10) ~[classes/:na]
+Caused by: org.flywaydb.core.internal.command.DbMigrate$FlywayMigrateException: 
+Migration V1__init.sql failed
+-----------------------------
+SQL State  : 42601
+Error Code : 0
+Message    : ERROR: syntax error at or near "auto_increment"
+  Позиция: 45
+Location   : db/migration/V1__init.sql (/home/rushan/work/java/subscriber/target/classes/db/migration/V1__init.sql)
+Line       : 1
+Statement  : create table purchase (
+	id bigint not null auto_increment,
+	subscriber_id bigint not null,
+	timestamp bigint not null,
+	created_at datetime(6),
+	updated_at datetime(6),
+	primary key (id)
+) engine=InnoDB
+
+	at org.flywaydb.core.internal.command.DbMigrate.doMigrateGroup(DbMigrate.java:369) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.internal.command.DbMigrate.access$200(DbMigrate.java:54) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.internal.command.DbMigrate$3.call(DbMigrate.java:282) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.internal.jdbc.TransactionalExecutionTemplate.execute(TransactionalExecutionTemplate.java:66) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.internal.command.DbMigrate.applyMigrations(DbMigrate.java:279) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.internal.command.DbMigrate.migrateGroup(DbMigrate.java:244) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.internal.command.DbMigrate.access$100(DbMigrate.java:54) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.internal.command.DbMigrate$2.call(DbMigrate.java:162) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.internal.command.DbMigrate$2.call(DbMigrate.java:159) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.internal.database.postgresql.PostgreSQLAdvisoryLockTemplate.execute(PostgreSQLAdvisoryLockTemplate.java:71) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.internal.database.postgresql.PostgreSQLConnection.lock(PostgreSQLConnection.java:99) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory.lock(JdbcTableSchemaHistory.java:140) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.internal.command.DbMigrate.migrateAll(DbMigrate.java:159) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.internal.command.DbMigrate.migrate(DbMigrate.java:137) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.Flyway$1.execute(Flyway.java:199) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.Flyway$1.execute(Flyway.java:159) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.Flyway.execute(Flyway.java:530) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.Flyway.migrate(Flyway.java:159) ~[flyway-core-6.4.4.jar:na]
+	at org.springframework.boot.autoconfigure.flyway.FlywayMigrationInitializer.afterPropertiesSet(FlywayMigrationInitializer.java:65) ~[spring-boot-autoconfigure-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	... 19 common frames omitted
+Caused by: org.flywaydb.core.internal.sqlscript.FlywaySqlScriptException: 
+Migration V1__init.sql failed
+-----------------------------
+SQL State  : 42601
+Error Code : 0
+Message    : ERROR: syntax error at or near "auto_increment"
+  Позиция: 45
+Location   : db/migration/V1__init.sql (/home/rushan/work/java/subscriber/target/classes/db/migration/V1__init.sql)
+Line       : 1
+Statement  : create table purchase (
+	id bigint not null auto_increment,
+	subscriber_id bigint not null,
+	timestamp bigint not null,
+	created_at datetime(6),
+	updated_at datetime(6),
+	primary key (id)
+) engine=InnoDB
+
+	at org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor.handleException(DefaultSqlScriptExecutor.java:275) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor.executeStatement(DefaultSqlScriptExecutor.java:220) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor.execute(DefaultSqlScriptExecutor.java:127) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor.executeOnce(SqlMigrationExecutor.java:88) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor.access$000(SqlMigrationExecutor.java:33) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor$1.call(SqlMigrationExecutor.java:77) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor$1.call(SqlMigrationExecutor.java:74) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.internal.database.DefaultExecutionStrategy.execute(DefaultExecutionStrategy.java:28) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor.execute(SqlMigrationExecutor.java:74) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.internal.command.DbMigrate.doMigrateGroup(DbMigrate.java:366) ~[flyway-core-6.4.4.jar:na]
+	... 39 common frames omitted
+Caused by: org.postgresql.util.PSQLException: ERROR: syntax error at or near "auto_increment"
+  Позиция: 45
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2532) ~[postgresql-42.2.14.jar:42.2.14]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2267) ~[postgresql-42.2.14.jar:42.2.14]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:312) ~[postgresql-42.2.14.jar:42.2.14]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:448) ~[postgresql-42.2.14.jar:42.2.14]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:369) ~[postgresql-42.2.14.jar:42.2.14]
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:310) ~[postgresql-42.2.14.jar:42.2.14]
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:296) ~[postgresql-42.2.14.jar:42.2.14]
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:273) ~[postgresql-42.2.14.jar:42.2.14]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:268) ~[postgresql-42.2.14.jar:42.2.14]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-3.4.5.jar:na]
+	at org.flywaydb.core.internal.jdbc.JdbcTemplate.executeStatement(JdbcTemplate.java:244) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.internal.sqlscript.ParsedSqlStatement.execute(ParsedSqlStatement.java:111) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor.executeStatement(DefaultSqlScriptExecutor.java:208) ~[flyway-core-6.4.4.jar:na]
+	... 47 common frames omitted
+
+2020-07-09 16:06:02.301  INFO 9864 --- [main] c.e.subscriber.SubscriberApplication     : Starting SubscriberApplication on rushan-desktop with PID 9864 (/home/rushan/work/java/subscriber/target/classes started by rushan in /home/rushan/work/java/subscriber)
+2020-07-09 16:06:02.303  INFO 9864 --- [main] c.e.subscriber.SubscriberApplication     : No active profile set, falling back to default profiles: default
+2020-07-09 16:06:02.734  INFO 9864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-07-09 16:06:02.768  INFO 9864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28ms. Found 3 JPA repository interfaces.
+2020-07-09 16:06:03.033  INFO 9864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-07-09 16:06:03.042  INFO 9864 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-09 16:06:03.042  INFO 9864 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-09 16:06:03.105  INFO 9864 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-09 16:06:03.105  INFO 9864 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 779 ms
+2020-07-09 16:06:03.172  INFO 9864 --- [main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 6.4.4 by Redgate
+2020-07-09 16:06:03.175  INFO 9864 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-09 16:06:03.235  INFO 9864 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-09 16:06:03.244  INFO 9864 --- [main] o.f.c.internal.database.DatabaseFactory  : Database: jdbc:postgresql://localhost:5432/subscriber (PostgreSQL 12.3)
+2020-07-09 16:06:03.263  INFO 9864 --- [main] o.f.core.internal.command.DbValidate     : Successfully validated 1 migration (execution time 00:00.009s)
+2020-07-09 16:06:03.266  INFO 9864 --- [main] o.f.core.internal.command.DbMigrate      : Current version of schema "public": << Empty Schema >>
+2020-07-09 16:06:03.274  INFO 9864 --- [main] o.f.core.internal.command.DbMigrate      : Migrating schema "public" to version 1 - init
+2020-07-09 16:06:03.283 ERROR 9864 --- [main] o.f.core.internal.command.DbMigrate      : Migration of schema "public" to version 1 - init failed! Changes successfully rolled back.
+2020-07-09 16:06:03.285  WARN 9864 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Invocation of init method failed; nested exception is org.flywaydb.core.internal.command.DbMigrate$FlywayMigrateException: 
+Migration V1__init.sql failed
+-----------------------------
+SQL State  : 42601
+Error Code : 0
+Message    : ERROR: syntax error at or near "serial"
+  Позиция: 45
+Location   : db/migration/V1__init.sql (/home/rushan/work/java/subscriber/target/classes/db/migration/V1__init.sql)
+Line       : 1
+Statement  : create table purchase (
+	id bigint not null serial,
+	subscriber_id bigint not null,
+	timestamp bigint not null,
+	created_at datetime(6),
+	updated_at datetime(6),
+	primary key (id)
+) engine=InnoDB
+
+2020-07-09 16:06:03.286  INFO 9864 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-07-09 16:06:03.287  INFO 9864 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-07-09 16:06:03.289  INFO 9864 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-07-09 16:06:03.295  INFO 9864 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-09 16:06:03.301 ERROR 9864 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Invocation of init method failed; nested exception is org.flywaydb.core.internal.command.DbMigrate$FlywayMigrateException: 
+Migration V1__init.sql failed
+-----------------------------
+SQL State  : 42601
+Error Code : 0
+Message    : ERROR: syntax error at or near "serial"
+  Позиция: 45
+Location   : db/migration/V1__init.sql (/home/rushan/work/java/subscriber/target/classes/db/migration/V1__init.sql)
+Line       : 1
+Statement  : create table purchase (
+	id bigint not null serial,
+	subscriber_id bigint not null,
+	timestamp bigint not null,
+	created_at datetime(6),
+	updated_at datetime(6),
+	primary key (id)
+) engine=InnoDB
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1109) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) ~[spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750) ~[spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) ~[spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) ~[spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) ~[spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at com.example.subscriber.SubscriberApplication.main(SubscriberApplication.java:10) ~[classes/:na]
+Caused by: org.flywaydb.core.internal.command.DbMigrate$FlywayMigrateException: 
+Migration V1__init.sql failed
+-----------------------------
+SQL State  : 42601
+Error Code : 0
+Message    : ERROR: syntax error at or near "serial"
+  Позиция: 45
+Location   : db/migration/V1__init.sql (/home/rushan/work/java/subscriber/target/classes/db/migration/V1__init.sql)
+Line       : 1
+Statement  : create table purchase (
+	id bigint not null serial,
+	subscriber_id bigint not null,
+	timestamp bigint not null,
+	created_at datetime(6),
+	updated_at datetime(6),
+	primary key (id)
+) engine=InnoDB
+
+	at org.flywaydb.core.internal.command.DbMigrate.doMigrateGroup(DbMigrate.java:369) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.internal.command.DbMigrate.access$200(DbMigrate.java:54) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.internal.command.DbMigrate$3.call(DbMigrate.java:282) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.internal.jdbc.TransactionalExecutionTemplate.execute(TransactionalExecutionTemplate.java:66) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.internal.command.DbMigrate.applyMigrations(DbMigrate.java:279) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.internal.command.DbMigrate.migrateGroup(DbMigrate.java:244) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.internal.command.DbMigrate.access$100(DbMigrate.java:54) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.internal.command.DbMigrate$2.call(DbMigrate.java:162) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.internal.command.DbMigrate$2.call(DbMigrate.java:159) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.internal.database.postgresql.PostgreSQLAdvisoryLockTemplate.execute(PostgreSQLAdvisoryLockTemplate.java:71) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.internal.database.postgresql.PostgreSQLConnection.lock(PostgreSQLConnection.java:99) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory.lock(JdbcTableSchemaHistory.java:140) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.internal.command.DbMigrate.migrateAll(DbMigrate.java:159) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.internal.command.DbMigrate.migrate(DbMigrate.java:137) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.Flyway$1.execute(Flyway.java:199) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.Flyway$1.execute(Flyway.java:159) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.Flyway.execute(Flyway.java:530) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.Flyway.migrate(Flyway.java:159) ~[flyway-core-6.4.4.jar:na]
+	at org.springframework.boot.autoconfigure.flyway.FlywayMigrationInitializer.afterPropertiesSet(FlywayMigrationInitializer.java:65) ~[spring-boot-autoconfigure-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	... 19 common frames omitted
+Caused by: org.flywaydb.core.internal.sqlscript.FlywaySqlScriptException: 
+Migration V1__init.sql failed
+-----------------------------
+SQL State  : 42601
+Error Code : 0
+Message    : ERROR: syntax error at or near "serial"
+  Позиция: 45
+Location   : db/migration/V1__init.sql (/home/rushan/work/java/subscriber/target/classes/db/migration/V1__init.sql)
+Line       : 1
+Statement  : create table purchase (
+	id bigint not null serial,
+	subscriber_id bigint not null,
+	timestamp bigint not null,
+	created_at datetime(6),
+	updated_at datetime(6),
+	primary key (id)
+) engine=InnoDB
+
+	at org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor.handleException(DefaultSqlScriptExecutor.java:275) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor.executeStatement(DefaultSqlScriptExecutor.java:220) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor.execute(DefaultSqlScriptExecutor.java:127) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor.executeOnce(SqlMigrationExecutor.java:88) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor.access$000(SqlMigrationExecutor.java:33) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor$1.call(SqlMigrationExecutor.java:77) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor$1.call(SqlMigrationExecutor.java:74) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.internal.database.DefaultExecutionStrategy.execute(DefaultExecutionStrategy.java:28) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor.execute(SqlMigrationExecutor.java:74) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.internal.command.DbMigrate.doMigrateGroup(DbMigrate.java:366) ~[flyway-core-6.4.4.jar:na]
+	... 39 common frames omitted
+Caused by: org.postgresql.util.PSQLException: ERROR: syntax error at or near "serial"
+  Позиция: 45
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2532) ~[postgresql-42.2.14.jar:42.2.14]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2267) ~[postgresql-42.2.14.jar:42.2.14]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:312) ~[postgresql-42.2.14.jar:42.2.14]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:448) ~[postgresql-42.2.14.jar:42.2.14]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:369) ~[postgresql-42.2.14.jar:42.2.14]
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:310) ~[postgresql-42.2.14.jar:42.2.14]
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:296) ~[postgresql-42.2.14.jar:42.2.14]
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:273) ~[postgresql-42.2.14.jar:42.2.14]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:268) ~[postgresql-42.2.14.jar:42.2.14]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-3.4.5.jar:na]
+	at org.flywaydb.core.internal.jdbc.JdbcTemplate.executeStatement(JdbcTemplate.java:244) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.internal.sqlscript.ParsedSqlStatement.execute(ParsedSqlStatement.java:111) ~[flyway-core-6.4.4.jar:na]
+	at org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor.executeStatement(DefaultSqlScriptExecutor.java:208) ~[flyway-core-6.4.4.jar:na]
+	... 47 common frames omitted
+
+2020-07-09 16:06:21.740  INFO 10267 --- [main] c.e.subscriber.SubscriberApplication     : Starting SubscriberApplication on rushan-desktop with PID 10267 (/home/rushan/work/java/subscriber/target/classes started by rushan in /home/rushan/work/java/subscriber)
+2020-07-09 16:06:21.752  INFO 10267 --- [main] c.e.subscriber.SubscriberApplication     : No active profile set, falling back to default profiles: default
+2020-07-09 16:06:22.233  INFO 10267 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-07-09 16:06:22.268  INFO 10267 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31ms. Found 3 JPA repository interfaces.
+2020-07-09 16:06:22.534  INFO 10267 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-07-09 16:06:22.549  INFO 10267 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-09 16:06:22.549  INFO 10267 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-09 16:06:22.607  INFO 10267 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-09 16:06:22.607  INFO 10267 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 826 ms
+2020-07-09 16:06:22.673  INFO 10267 --- [main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 6.4.4 by Redgate
+2020-07-09 16:06:22.676  INFO 10267 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-09 16:06:22.716  INFO 10267 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-09 16:06:22.725  INFO 10267 --- [main] o.f.c.internal.database.DatabaseFactory  : Database: jdbc:postgresql://localhost:5432/subscriber (PostgreSQL 12.3)
+2020-07-09 16:06:22.746  INFO 10267 --- [main] o.f.core.internal.command.DbValidate     : Successfully validated 1 migration (execution time 00:00.011s)
+2020-07-09 16:06:22.750  INFO 10267 --- [main] o.f.core.internal.command.DbMigrate      : Current version of schema "public": << Empty Schema >>
+2020-07-09 16:06:22.758  INFO 10267 --- [main] o.f.core.internal.command.DbMigrate      : Migrating schema "public" to version 1 - init
+2020-07-09 16:06:22.769  INFO 10267 --- [main] o.f.core.internal.command.DbMigrate      : Successfully applied 1 migration to schema "public" (execution time 00:00.021s)
+2020-07-09 16:06:22.797  INFO 10267 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-09 16:06:22.816  INFO 10267 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-09 16:06:22.839  INFO 10267 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-07-09 16:06:22.851  WARN 10267 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-09 16:06:22.892  INFO 10267 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-09 16:06:22.941  INFO 10267 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-07-09 16:06:23.090  INFO 10267 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-09 16:06:23.091  INFO 10267 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-07-09 16:06:23.332  WARN 10267 --- [task-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2020-07-09 16:06:23.332  WARN 10267 --- [task-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : constraint "uk_65xupu9dqb1ntatm47uxxlpl8" of relation "subscriber" does not exist, skipping
+2020-07-09 16:06:23.346  INFO 10267 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-09 16:06:23.382  INFO 10267 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-09 16:06:23.520  INFO 10267 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-07-09 16:06:23.526  INFO 10267 --- [main] c.e.subscriber.SubscriberApplication     : Started SubscriberApplication in 2.023 seconds (JVM running for 2.481)
