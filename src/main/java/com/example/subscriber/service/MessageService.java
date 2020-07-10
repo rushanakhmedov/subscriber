@@ -1,42 +1,40 @@
 package com.example.subscriber.service;
 
 import com.example.subscriber.dto.MessageDTO;
-import com.example.subscriber.entity.Purchase;
 import com.example.subscriber.entity.Subscriber;
-import com.example.subscriber.entity.Subscription;
 import com.example.subscriber.helper.ActionType;
-import com.example.subscriber.repository.PurchaseRepository;
-import com.example.subscriber.repository.SubscriptionRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 @Service
 public class MessageService {
 
     Logger logger = LoggerFactory.getLogger(MessageService.class);
 
-    private ApplicationContext context;
-
     private SubscriberService subscriberService;
-
-    private SubscriptionRepository subscriptionRepository;
-    private PurchaseRepository purchaseRepository;
+    private List<MessageProcessor> messageProcessors;
 
     @Autowired
-    public MessageService(ApplicationContext context, SubscriberService subscriberService, SubscriptionRepository subscriptionRepository, PurchaseRepository purchaseRepository) {
-        this.context = context;
+    public MessageService(SubscriberService subscriberService, List<MessageProcessor> messageProcessors) {
         this.subscriberService = subscriberService;
-        this.subscriptionRepository = subscriptionRepository;
-        this.purchaseRepository = purchaseRepository;
+        this.messageProcessors = messageProcessors;
     }
 
     public void saveMessage(MessageDTO message) {
         Subscriber subscriber = subscriberService.getSubscriberOrSaveAndGet(message.getMsisdn());
+        ActionType actionType = message.getAction();
 
-        MessageSaver messageSaverService = context.getBean(ActionType.purchase.toLowerCase() + "Service", MessageSaver.class);
-        messageSaverService.saveMessage(message.getTimestamp(), subscriber);
+        logger.info("Save message for subscriber msisdn: {}", subscriber.getMsisdn());
+
+        MessageProcessor messageProcessor = messageProcessors.stream()
+                .filter(processor -> processor.getProcessingType().equals(actionType))
+                .findAny()
+                .orElseThrow(() -> new IllegalArgumentException("Unsupported type " + actionType));
+
+        messageProcessor.saveMessage(message.getTimestamp(), subscriber);
     }
 }

@@ -2,14 +2,15 @@ package com.example.subscriber.service;
 
 import com.example.subscriber.entity.Purchase;
 import com.example.subscriber.entity.Subscriber;
+import com.example.subscriber.helper.ActionType;
 import com.example.subscriber.repository.PurchaseRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-@Service("purchaseService")
-public class PurchaseService implements MessageSaver {
+@Service
+public class PurchaseService implements MessageProcessor {
 
     Logger logger = LoggerFactory.getLogger(PurchaseService.class);
 
@@ -18,6 +19,11 @@ public class PurchaseService implements MessageSaver {
     @Autowired
     public PurchaseService(PurchaseRepository purchaseRepository) {
         this.purchaseRepository = purchaseRepository;
+    }
+
+    @Override
+    public ActionType getProcessingType() {
+        return ActionType.PURCHASE;
     }
 
     @Override

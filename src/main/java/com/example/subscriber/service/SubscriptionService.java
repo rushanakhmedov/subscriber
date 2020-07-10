@@ -2,14 +2,15 @@ package com.example.subscriber.service;
 
 import com.example.subscriber.entity.Subscriber;
 import com.example.subscriber.entity.Subscription;
+import com.example.subscriber.helper.ActionType;
 import com.example.subscriber.repository.SubscriptionRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-@Service("subscriptionService")
-public class SubscriptionService implements MessageSaver {
+@Service
+public class SubscriptionService implements MessageProcessor {
 
     Logger logger = LoggerFactory.getLogger(SubscriptionService.class);
 
@@ -19,6 +20,11 @@ public class SubscriptionService implements MessageSaver {
     public SubscriptionService(SubscriptionRepository subscriptionRepository) {
 
         this.subscriptionRepository = subscriptionRepository;
+    }
+
+    @Override
+    public ActionType getProcessingType() {
+        return ActionType.SUBSCRIPTION;
     }
 
     @Override

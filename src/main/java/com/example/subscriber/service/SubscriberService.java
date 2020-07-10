@@ -18,13 +18,6 @@ public class SubscriberService {
     }
 
     public Subscriber getSubscriberOrSaveAndGet(long id) {
-        /*Subscriber subscriber = subscriberRepository.findByMsisdn(id);
-        if (subscriber == null) {
-            Subscriber newSubscriber = new Subscriber();
-            newSubscriber.setMsisdn(id);
-            subscriberRepository.save(newSubscriber);
-            return newSubscriber;
-        }*/
         Optional<Subscriber> subscriberOptional = subscriberRepository.findByMsisdn(id);
         if (subscriberOptional.isEmpty()) {
             Subscriber newSubscriber = new Subscriber();

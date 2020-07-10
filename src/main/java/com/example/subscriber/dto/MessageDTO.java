@@ -5,16 +5,14 @@ import com.example.subscriber.helper.ActionType;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Pattern;
 
 public class MessageDTO {
 
     @NotNull
     private long msisdn;
 
-    @NotBlank
-    @Pattern(regexp = ActionType.pattern)
-    private String action;
+    @NotNull
+    private ActionType action;
 
     @NotNull
     @Min(0)
@@ -31,11 +29,11 @@ public class MessageDTO {
         this.msisdn = msisdn;
     }
 
-    public String getAction() {
+    public ActionType getAction() {
         return action;
     }
 
-    public void setAction(String action) {
+    public void setAction(ActionType action) {
         this.action = action;
     }
 
